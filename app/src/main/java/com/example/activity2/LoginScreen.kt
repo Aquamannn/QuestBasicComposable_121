@@ -77,22 +77,6 @@ fun LoginScreen() {
 
         Spacer(modifier = Modifier.height(14.dp))
 
-        Surface(
-            shape = CircleShape,
-            modifier = Modifier
-                .size(350.dp)
-                .border(4.dp, Color.White, CircleShape),
-            tonalElevation = 6.dp
-        ) {
-            Image(
-                painter = painterResource(id = R.drawable.foto),
-                contentDescription = "Foto Profil",
-                modifier = Modifier
-                    .fillMaxSize()
-                    .clip(CircleShape),
-                alignment = Alignment.Center
-            )
-        }
     }
 }
 
