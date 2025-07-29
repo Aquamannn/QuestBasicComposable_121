@@ -94,5 +94,5 @@ fun LoginScreen() {
             )
         }
     }
-
+}
 
