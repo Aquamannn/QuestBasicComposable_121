@@ -19,15 +19,8 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun LoginScreen() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color.White)
-            .padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Top
-    ) {
-        Spacer(modifier = Modifier.height(40.dp))
+
+
 
 
 
