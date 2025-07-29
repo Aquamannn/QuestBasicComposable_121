@@ -35,7 +35,6 @@ fun LoginScreen() {
             color = Color.Black
         )
 
-        Spacer(modifier = Modifier.height(2.dp))
 
 
 
