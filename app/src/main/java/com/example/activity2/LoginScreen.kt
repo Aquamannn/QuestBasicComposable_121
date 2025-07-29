@@ -59,23 +59,7 @@ fun LoginScreen() {
             color = Color.Red
         )
 
-        Text(
-            text = "Muhammad Razzin Ayyuri",
-            fontSize = 16.sp,
-            fontWeight = FontWeight.Bold,
-            color = Color.Blue
-        )
 
-        Spacer(modifier = Modifier.height(5.dp))
-
-        Text(
-            text = "20230140121",
-            fontSize = 24.sp,
-            fontWeight = FontWeight.Bold,
-            color = Color.Black
-        )
-
-        Spacer(modifier = Modifier.height(14.dp))
 
     }
 }
